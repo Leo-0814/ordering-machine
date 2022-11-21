@@ -1,0 +1,107 @@
+body{
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    /* max-height: 800px; */
+}
+
+#title{
+    color: white;
+    margin: 1em 0;
+}
+
+/* order css */
+#order{
+    margin-bottom: 10px;
+}
+
+#orderCardBody{
+    padding: 12px;
+    
+}
+
+#orderCardBody>div{
+    text-align: end;
+}
+
+#orderCardFooter{
+    text-align: end;
+}
+
+#orderArea {
+    display: flex;
+    flex-flow: column;
+    height: 520px;
+    overflow-y: auto;
+}
+
+#btnCheckOut {
+    align-self: flex-end;
+}
+
+#orderName{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* drink css */
+#drinkArea{
+    display: flex;
+    flex-flow: column;
+}
+
+#btnAdd{
+    align-self: flex-end;
+    margin: 30px 10px;
+    width: 100px;
+}
+
+.btn-circle {
+    width: 16px;
+    height: 16px;
+    padding: 6px 0;
+    border-radius: 100%;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.btn-circle:hover{
+    border: 1px solid black;
+}
+
+#drink{
+    margin: 0 2px 20px 0px;
+    width: 95%;
+}
+
+#drink:hover {
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.87);
+}
+
+#drinkCardBody:hover{
+    cursor: pointer;
+}
+
+#drinkName{
+    height: 50px;
+}
+
+#drinkPrice {
+    margin-bottom: 0px;
+}
+
+/* ice sugar css */
+#sugar{
+    margin-top: 20px;
+}
+
+#iceTitle ,#sugarTitle{
+    color: white;
+}
